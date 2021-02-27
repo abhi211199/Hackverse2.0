@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "prepUp-app",
+    "slug": "prepUp-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/prepup_logo_3_updated.png",
+    "splash": {
+      "image": "./assets/splash_prepup.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prepup.reactnative",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.999977673350-ba0b3u7ich9n569f81215p2evhvn81fb"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+
+    "android": {
+      "package": "com.prepup.reactnative",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
