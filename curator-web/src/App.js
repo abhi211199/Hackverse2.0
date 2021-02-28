@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './container/header';
+import SideBar from './container/sidebar';
+import Dashboard from './container/dashboard';
+
+require('dotenv').config()
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div style={{top: "60px", width: "100%", display: "flex"}}>
+        <SideBar />
+        <Dashboard />
+      </div>
     </div>
   );
 }
