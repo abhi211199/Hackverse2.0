@@ -1,6 +1,4 @@
-# Hackverse2.0
-
-## Title: PrepUP
+# PrepUP
 ## Description of the Hack: India's first app that rewards you to study hard and teach others!
 ## Tech Stack Used: ReactJS, ExpressJS, React Native, Firebase
 ## Installation Steps: 
